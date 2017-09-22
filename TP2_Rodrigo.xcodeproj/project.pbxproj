@@ -12,6 +12,17 @@
 		9BCF6DB31F747E63000EBF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DB11F747E62000EBF35 /* Main.storyboard */; };
 		9BCF6DB51F747E63000EBF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DB41F747E63000EBF35 /* Assets.xcassets */; };
 		9BCF6DB81F747E63000EBF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DB61F747E63000EBF35 /* LaunchScreen.storyboard */; };
+		9BCF6DCB1F747F29000EBF35 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DC01F747F29000EBF35 /* chat.png */; };
+		9BCF6DCC1F747F29000EBF35 /* chien.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DC11F747F29000EBF35 /* chien.png */; };
+		9BCF6DCD1F747F29000EBF35 /* crocodile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DC21F747F29000EBF35 /* crocodile.png */; };
+		9BCF6DCE1F747F29000EBF35 /* dolphins.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DC31F747F29000EBF35 /* dolphins.png */; };
+		9BCF6DCF1F747F29000EBF35 /* floreste.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DC41F747F29000EBF35 /* floreste.png */; };
+		9BCF6DD01F747F29000EBF35 /* giraphe.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DC51F747F29000EBF35 /* giraphe.png */; };
+		9BCF6DD11F747F29000EBF35 /* leon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DC61F747F29000EBF35 /* leon.png */; };
+		9BCF6DD21F747F29000EBF35 /* oiseau.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DC71F747F29000EBF35 /* oiseau.png */; };
+		9BCF6DD31F747F29000EBF35 /* oso.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DC81F747F29000EBF35 /* oso.png */; };
+		9BCF6DD51F747F29000EBF35 /* souris.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DCA1F747F29000EBF35 /* souris.png */; };
+		9BCF6DD91F748F1D000EBF35 /* bonjour.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DD81F748F1D000EBF35 /* bonjour.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		9BCF6DB41F747E63000EBF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BCF6DB71F747E63000EBF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BCF6DB91F747E63000EBF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCF6DC01F747F29000EBF35 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		9BCF6DC11F747F29000EBF35 /* chien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chien.png; sourceTree = "<group>"; };
+		9BCF6DC21F747F29000EBF35 /* crocodile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crocodile.png; sourceTree = "<group>"; };
+		9BCF6DC31F747F29000EBF35 /* dolphins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dolphins.png; sourceTree = "<group>"; };
+		9BCF6DC41F747F29000EBF35 /* floreste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floreste.png; sourceTree = "<group>"; };
+		9BCF6DC51F747F29000EBF35 /* giraphe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giraphe.png; sourceTree = "<group>"; };
+		9BCF6DC61F747F29000EBF35 /* leon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leon.png; sourceTree = "<group>"; };
+		9BCF6DC71F747F29000EBF35 /* oiseau.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oiseau.png; sourceTree = "<group>"; };
+		9BCF6DC81F747F29000EBF35 /* oso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oso.png; sourceTree = "<group>"; };
+		9BCF6DCA1F747F29000EBF35 /* souris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = souris.png; sourceTree = "<group>"; };
+		9BCF6DD81F748F1D000EBF35 /* bonjour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bonjour.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 		9BCF6DAC1F747E62000EBF35 /* TP2_Rodrigo */ = {
 			isa = PBXGroup;
 			children = (
+				9BCF6DBF1F747F02000EBF35 /* images */,
 				9BCF6DAD1F747E62000EBF35 /* AppDelegate.swift */,
 				9BCF6DAF1F747E62000EBF35 /* ViewController.swift */,
 				9BCF6DB11F747E62000EBF35 /* Main.storyboard */,
@@ -62,6 +85,24 @@
 				9BCF6DB91F747E63000EBF35 /* Info.plist */,
 			);
 			path = TP2_Rodrigo;
+			sourceTree = "<group>";
+		};
+		9BCF6DBF1F747F02000EBF35 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9BCF6DD81F748F1D000EBF35 /* bonjour.png */,
+				9BCF6DC01F747F29000EBF35 /* chat.png */,
+				9BCF6DC11F747F29000EBF35 /* chien.png */,
+				9BCF6DC21F747F29000EBF35 /* crocodile.png */,
+				9BCF6DC31F747F29000EBF35 /* dolphins.png */,
+				9BCF6DC41F747F29000EBF35 /* floreste.png */,
+				9BCF6DC51F747F29000EBF35 /* giraphe.png */,
+				9BCF6DC61F747F29000EBF35 /* leon.png */,
+				9BCF6DC71F747F29000EBF35 /* oiseau.png */,
+				9BCF6DC81F747F29000EBF35 /* oso.png */,
+				9BCF6DCA1F747F29000EBF35 /* souris.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +164,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCF6DCE1F747F29000EBF35 /* dolphins.png in Resources */,
+				9BCF6DD11F747F29000EBF35 /* leon.png in Resources */,
+				9BCF6DCC1F747F29000EBF35 /* chien.png in Resources */,
+				9BCF6DD31F747F29000EBF35 /* oso.png in Resources */,
 				9BCF6DB81F747E63000EBF35 /* LaunchScreen.storyboard in Resources */,
+				9BCF6DCF1F747F29000EBF35 /* floreste.png in Resources */,
 				9BCF6DB51F747E63000EBF35 /* Assets.xcassets in Resources */,
+				9BCF6DD01F747F29000EBF35 /* giraphe.png in Resources */,
 				9BCF6DB31F747E63000EBF35 /* Main.storyboard in Resources */,
+				9BCF6DD91F748F1D000EBF35 /* bonjour.png in Resources */,
+				9BCF6DD21F747F29000EBF35 /* oiseau.png in Resources */,
+				9BCF6DD51F747F29000EBF35 /* souris.png in Resources */,
+				9BCF6DCD1F747F29000EBF35 /* crocodile.png in Resources */,
+				9BCF6DCB1F747F29000EBF35 /* chat.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
