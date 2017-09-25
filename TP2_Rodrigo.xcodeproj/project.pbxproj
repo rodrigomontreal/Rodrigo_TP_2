@@ -15,6 +15,8 @@
 		9B05F2941F76BFCC00372191 /* tortue2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B05F28C1F76BFCC00372191 /* tortue2.png */; };
 		9B05F2951F76BFCC00372191 /* toucan2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B05F28D1F76BFCC00372191 /* toucan2.png */; };
 		9B05F2961F76BFCC00372191 /* zébre2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B05F28E1F76BFCC00372191 /* zébre2.png */; };
+		9B3C54A41F79988E0025CD74 /* summerforest.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3C54A31F79988E0025CD74 /* summerforest.png */; };
+		9B3C54A61F7999E10025CD74 /* soleil.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B3C54A51F7999E10025CD74 /* soleil.png */; };
 		9BCF6DAE1F747E62000EBF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCF6DAD1F747E62000EBF35 /* AppDelegate.swift */; };
 		9BCF6DB01F747E62000EBF35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCF6DAF1F747E62000EBF35 /* ViewController.swift */; };
 		9BCF6DB31F747E63000EBF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCF6DB11F747E62000EBF35 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 		9B05F28C1F76BFCC00372191 /* tortue2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tortue2.png; sourceTree = "<group>"; };
 		9B05F28D1F76BFCC00372191 /* toucan2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toucan2.png; sourceTree = "<group>"; };
 		9B05F28E1F76BFCC00372191 /* zébre2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zébre2.png"; sourceTree = "<group>"; };
+		9B3C54A31F79988E0025CD74 /* summerforest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summerforest.png; sourceTree = "<group>"; };
+		9B3C54A51F7999E10025CD74 /* soleil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soleil.png; sourceTree = "<group>"; };
 		9BCF6DAA1F747E62000EBF35 /* TP2_Rodrigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TP2_Rodrigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCF6DAD1F747E62000EBF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BCF6DAF1F747E62000EBF35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 		9BCF6DBF1F747F02000EBF35 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9B3C54A51F7999E10025CD74 /* soleil.png */,
+				9B3C54A31F79988E0025CD74 /* summerforest.png */,
 				9B05F2871F76BFCC00372191 /* arara2.png */,
 				9B05F2881F76BFCC00372191 /* chien2.png */,
 				9B05F2891F76BFCC00372191 /* lapin.2png.png */,
@@ -169,8 +175,10 @@
 				9BCF6DCF1F747F29000EBF35 /* floreste.png in Resources */,
 				9B05F2941F76BFCC00372191 /* tortue2.png in Resources */,
 				9B05F2921F76BFCC00372191 /* singe2.png in Resources */,
+				9B3C54A61F7999E10025CD74 /* soleil.png in Resources */,
 				9BCF6DB51F747E63000EBF35 /* Assets.xcassets in Resources */,
 				9BCF6DB31F747E63000EBF35 /* Main.storyboard in Resources */,
+				9B3C54A41F79988E0025CD74 /* summerforest.png in Resources */,
 				9BCF6DD91F748F1D000EBF35 /* bonjour.png in Resources */,
 				9BCF6DCB1F747F29000EBF35 /* chat.png in Resources */,
 				9B05F2961F76BFCC00372191 /* zébre2.png in Resources */,
