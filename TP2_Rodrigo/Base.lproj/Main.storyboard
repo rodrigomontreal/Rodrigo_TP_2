@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad12_9" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,20 +21,23 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="soleil.png" translatesAutoresizingMaskIntoConstraints="NO" id="AJ6-Yf-NHc">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="interface-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kgd-XO-UHy">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bonjour.png" translatesAutoresizingMaskIntoConstraints="NO" id="W7g-Zk-tbv">
+                                <rect key="frame" x="307" y="111" width="154" height="154"/>
                             </imageView>
                             <view tag="14" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hjU-P1-hyH" userLabel="card_14">
-                                <rect key="frame" x="197" y="111" width="204.5" height="204.5"/>
+                                <rect key="frame" x="145" y="111" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7RW-LQ-0DL" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tortue2.png" translatesAutoresizingMaskIntoConstraints="NO" id="uJz-1h-R9e" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,13 +49,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H03-83-Oec" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="hNj-gb-hoe" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaN-YP-gpJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaN-YP-gpJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q4e-lS-FXP"/>
                                                 </connections>
@@ -83,13 +87,13 @@
                                 </constraints>
                             </view>
                             <view tag="13" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nk2-Hy-APf" userLabel="card_13">
-                                <rect key="frame" x="622.5" y="111" width="204.5" height="204.5"/>
+                                <rect key="frame" x="469" y="111" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ux4-en-41F" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tortue2.png" translatesAutoresizingMaskIntoConstraints="NO" id="OV8-Sb-uEY" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -101,13 +105,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUS-zD-wva" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="pK2-bX-BEs" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pU-h3-WYS">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pU-h3-WYS">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n5h-t1-aWg"/>
                                                 </connections>
@@ -139,13 +143,13 @@
                                 </constraints>
                             </view>
                             <view tag="12" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s70-ak-oEt" userLabel="card_12">
-                                <rect key="frame" x="622.5" y="961.5" width="204.5" height="204.5"/>
+                                <rect key="frame" x="469" y="759" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vjr-Yu-noF" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tiger2.png" translatesAutoresizingMaskIntoConstraints="NO" id="NB3-Qk-smf" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -157,13 +161,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Jo-Yr-eaE" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="a7P-qH-tGH" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyS-EC-Bre">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AyS-EC-Bre">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xnH-5b-cdZ"/>
                                                 </connections>
@@ -195,13 +199,13 @@
                                 </constraints>
                             </view>
                             <view tag="11" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbU-Gn-sJQ" userLabel="card_11">
-                                <rect key="frame" x="409.5" y="749" width="205" height="204.5"/>
+                                <rect key="frame" x="307" y="597" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rtd-gD-knL" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tiger2.png" translatesAutoresizingMaskIntoConstraints="NO" id="YcC-l5-zo7" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -213,13 +217,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iHe-hQ-t90" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="WUK-GT-pJJ" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gj8-is-vwr">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gj8-is-vwr">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CmE-we-SV8"/>
                                                 </connections>
@@ -251,13 +255,13 @@
                                 </constraints>
                             </view>
                             <view tag="10" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zq1-Uy-i1a" userLabel="card_10">
-                                <rect key="frame" x="197" y="749" width="204.5" height="204.5"/>
+                                <rect key="frame" x="145" y="597" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="un6-aj-OXE" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="singe2.png" translatesAutoresizingMaskIntoConstraints="NO" id="gw1-tD-3nl" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -269,13 +273,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fQZ-cw-0I8" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="gnI-5G-r2s" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XsX-fT-5F3">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XsX-fT-5F3">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2D-LA-75t"/>
                                                 </connections>
@@ -307,13 +311,13 @@
                                 </constraints>
                             </view>
                             <view tag="9" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Anl-uH-9rs" userLabel="card_9">
-                                <rect key="frame" x="409.5" y="961.5" width="205" height="204.5"/>
+                                <rect key="frame" x="307" y="759" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efm-kP-uLU" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="singe2.png" translatesAutoresizingMaskIntoConstraints="NO" id="7KC-AP-Yy4" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -329,13 +333,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MYy-4a-ONN" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="cYn-R6-ayh" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cY-jc-f8Q">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cY-jc-f8Q">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dLi-F1-DSF"/>
                                                 </connections>
@@ -383,13 +387,13 @@
                                 </constraints>
                             </view>
                             <view tag="8" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SnL-M7-m5H" userLabel="card_8">
-                                <rect key="frame" x="197" y="961.5" width="204.5" height="204.5"/>
+                                <rect key="frame" x="145" y="759" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m0k-Sz-bY3" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lapin.2png.png" translatesAutoresizingMaskIntoConstraints="NO" id="sQ7-yI-jF2" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -401,13 +405,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tbT-Vr-hKY" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="DEt-ca-d6O" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bq-DM-oiQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Bq-DM-oiQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e5v-OT-xCt"/>
                                                 </connections>
@@ -439,13 +443,13 @@
                                 </constraints>
                             </view>
                             <view tag="7" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYa-k2-YzL" userLabel="card_7">
-                                <rect key="frame" x="622.5" y="323.5" width="204.5" height="204.5"/>
+                                <rect key="frame" x="469" y="273" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h30-ha-BPX" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lapin.2png.png" translatesAutoresizingMaskIntoConstraints="NO" id="RZK-xj-uoT" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -457,13 +461,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WDJ-SX-fNf" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="4We-RP-0wd" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Rz-e3-GUg">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Rz-e3-GUg">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ifs-sz-9ff"/>
                                                 </connections>
@@ -495,13 +499,13 @@
                                 </constraints>
                             </view>
                             <view tag="6" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="roa-Iu-FU8" userLabel="card_6">
-                                <rect key="frame" x="622.5" y="749" width="204.5" height="204.5"/>
+                                <rect key="frame" x="469" y="597" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="df3-9d-vRB" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chien2.png" translatesAutoresizingMaskIntoConstraints="NO" id="j9V-Id-A0b" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -513,13 +517,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uIT-WQ-7BI" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="HMW-7N-5CS" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STl-nk-8Fb">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STl-nk-8Fb">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aIP-Pt-I0v"/>
                                                 </connections>
@@ -550,14 +554,182 @@
                                     <constraint firstItem="uIT-WQ-7BI" firstAttribute="top" secondItem="roa-Iu-FU8" secondAttribute="top" id="zpu-Rf-J5Q"/>
                                 </constraints>
                             </view>
+                            <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9k6-lR-XHG" userLabel="card_5">
+                                <rect key="frame" x="307" y="273" width="154" height="154"/>
+                                <subviews>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9zj-ps-6UN" userLabel="back">
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chien2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jZf-mS-gAm" userLabel="animal">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="jZf-mS-gAm" secondAttribute="trailing" id="4kA-Tb-50R"/>
+                                            <constraint firstItem="jZf-mS-gAm" firstAttribute="leading" secondItem="9zj-ps-6UN" secondAttribute="leading" id="NXg-RH-CEq"/>
+                                            <constraint firstItem="jZf-mS-gAm" firstAttribute="top" secondItem="9zj-ps-6UN" secondAttribute="top" id="Zeu-sG-ieX"/>
+                                            <constraint firstAttribute="bottom" secondItem="jZf-mS-gAm" secondAttribute="bottom" id="ovZ-Rg-xwn"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TtO-uL-dOZ" userLabel="front">
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="lIO-T3-lSZ" userLabel="front">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                            </imageView>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTx-uJ-CVE">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                                <connections>
+                                                    <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4k-Tx-OFI"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="lIO-T3-lSZ" firstAttribute="leading" secondItem="TtO-uL-dOZ" secondAttribute="leading" id="7H2-FH-Bhc"/>
+                                            <constraint firstItem="dTx-uJ-CVE" firstAttribute="leading" secondItem="TtO-uL-dOZ" secondAttribute="leading" id="EDk-ZO-bnk"/>
+                                            <constraint firstItem="lIO-T3-lSZ" firstAttribute="top" secondItem="TtO-uL-dOZ" secondAttribute="top" id="JNJ-pP-qCr"/>
+                                            <constraint firstAttribute="trailing" secondItem="dTx-uJ-CVE" secondAttribute="trailing" id="RLP-eO-gRU"/>
+                                            <constraint firstAttribute="bottom" secondItem="dTx-uJ-CVE" secondAttribute="bottom" id="hDa-r8-OAN"/>
+                                            <constraint firstAttribute="trailing" secondItem="lIO-T3-lSZ" secondAttribute="trailing" id="ihK-t5-wqu"/>
+                                            <constraint firstItem="dTx-uJ-CVE" firstAttribute="top" secondItem="TtO-uL-dOZ" secondAttribute="top" id="mGR-il-P0G"/>
+                                            <constraint firstAttribute="bottom" secondItem="lIO-T3-lSZ" secondAttribute="bottom" id="wgc-y3-52w"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="9zj-ps-6UN" secondAttribute="bottom" id="4UD-hw-rT4"/>
+                                    <constraint firstAttribute="trailing" secondItem="9zj-ps-6UN" secondAttribute="trailing" id="6IR-fY-UmA"/>
+                                    <constraint firstItem="9zj-ps-6UN" firstAttribute="top" secondItem="9k6-lR-XHG" secondAttribute="top" id="Dsq-nY-oVt"/>
+                                    <constraint firstItem="9zj-ps-6UN" firstAttribute="leading" secondItem="9k6-lR-XHG" secondAttribute="leading" id="HsD-SE-Ii3"/>
+                                    <constraint firstItem="TtO-uL-dOZ" firstAttribute="leading" secondItem="9k6-lR-XHG" secondAttribute="leading" id="Y2v-Wm-ZeD"/>
+                                    <constraint firstAttribute="trailing" secondItem="TtO-uL-dOZ" secondAttribute="trailing" id="eje-TA-RyD"/>
+                                    <constraint firstItem="TtO-uL-dOZ" firstAttribute="top" secondItem="9k6-lR-XHG" secondAttribute="top" id="fx8-yS-Umd"/>
+                                    <constraint firstAttribute="bottom" secondItem="TtO-uL-dOZ" secondAttribute="bottom" id="ywb-6q-EzM"/>
+                                </constraints>
+                            </view>
+                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="be0-Ep-Cw0" userLabel="card_4">
+                                <rect key="frame" x="145" y="273" width="154" height="154"/>
+                                <subviews>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="izA-HB-1hn" userLabel="back">
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arara2.png" translatesAutoresizingMaskIntoConstraints="NO" id="OvA-gh-uRm" userLabel="animal">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="OvA-gh-uRm" firstAttribute="top" secondItem="izA-HB-1hn" secondAttribute="top" id="CX3-g7-HJ5"/>
+                                            <constraint firstAttribute="trailing" secondItem="OvA-gh-uRm" secondAttribute="trailing" id="Fdb-dR-A9t"/>
+                                            <constraint firstAttribute="bottom" secondItem="OvA-gh-uRm" secondAttribute="bottom" id="KY9-SE-lDi"/>
+                                            <constraint firstItem="OvA-gh-uRm" firstAttribute="leading" secondItem="izA-HB-1hn" secondAttribute="leading" id="YTo-Uo-lvF"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ii-w5-Gm2" userLabel="front">
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vch-EC-iCq" userLabel="front">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                            </imageView>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mT-im-FwN">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                                <connections>
+                                                    <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gJY-nQ-wUw"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="6mT-im-FwN" firstAttribute="leading" secondItem="4Ii-w5-Gm2" secondAttribute="leading" id="3Er-ia-ale"/>
+                                            <constraint firstAttribute="trailing" secondItem="6mT-im-FwN" secondAttribute="trailing" id="DMG-n8-tqJ"/>
+                                            <constraint firstItem="6mT-im-FwN" firstAttribute="top" secondItem="4Ii-w5-Gm2" secondAttribute="top" id="OFE-3h-Aie"/>
+                                            <constraint firstAttribute="trailing" secondItem="Vch-EC-iCq" secondAttribute="trailing" id="dcy-99-ow3"/>
+                                            <constraint firstItem="Vch-EC-iCq" firstAttribute="top" secondItem="4Ii-w5-Gm2" secondAttribute="top" id="dil-Ov-lnf"/>
+                                            <constraint firstAttribute="bottom" secondItem="Vch-EC-iCq" secondAttribute="bottom" id="hRE-73-dBH"/>
+                                            <constraint firstAttribute="bottom" secondItem="6mT-im-FwN" secondAttribute="bottom" id="iXY-eR-jRy"/>
+                                            <constraint firstItem="Vch-EC-iCq" firstAttribute="leading" secondItem="4Ii-w5-Gm2" secondAttribute="leading" id="xip-wd-4Wt"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="4Ii-w5-Gm2" secondAttribute="bottom" id="7rY-bx-b3c"/>
+                                    <constraint firstAttribute="trailing" secondItem="izA-HB-1hn" secondAttribute="trailing" id="AQq-Tq-g79"/>
+                                    <constraint firstItem="izA-HB-1hn" firstAttribute="leading" secondItem="be0-Ep-Cw0" secondAttribute="leading" id="BGf-JW-xYo"/>
+                                    <constraint firstItem="4Ii-w5-Gm2" firstAttribute="leading" secondItem="be0-Ep-Cw0" secondAttribute="leading" id="Cs1-kJ-Iuz"/>
+                                    <constraint firstItem="izA-HB-1hn" firstAttribute="top" secondItem="be0-Ep-Cw0" secondAttribute="top" id="Epp-Yt-vuH"/>
+                                    <constraint firstAttribute="bottom" secondItem="izA-HB-1hn" secondAttribute="bottom" id="EvD-tP-H1w"/>
+                                    <constraint firstItem="4Ii-w5-Gm2" firstAttribute="top" secondItem="be0-Ep-Cw0" secondAttribute="top" id="KjF-t4-8Fo"/>
+                                    <constraint firstAttribute="trailing" secondItem="4Ii-w5-Gm2" secondAttribute="trailing" id="apE-2h-DTg"/>
+                                </constraints>
+                            </view>
+                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0fU-jR-jL8" userLabel="card_2">
+                                <rect key="frame" x="145" y="435" width="154" height="154"/>
+                                <subviews>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYQ-9t-hUT" userLabel="back">
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat.png" translatesAutoresizingMaskIntoConstraints="NO" id="y0s-4J-Xw9" userLabel="animal">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="y0s-4J-Xw9" firstAttribute="leading" secondItem="rYQ-9t-hUT" secondAttribute="leading" id="76X-nQ-7UI"/>
+                                            <constraint firstItem="y0s-4J-Xw9" firstAttribute="top" secondItem="rYQ-9t-hUT" secondAttribute="top" id="YjM-M2-fyM"/>
+                                            <constraint firstAttribute="bottom" secondItem="y0s-4J-Xw9" secondAttribute="bottom" id="nMT-Rb-rq2"/>
+                                            <constraint firstAttribute="trailing" secondItem="y0s-4J-Xw9" secondAttribute="trailing" id="uRm-rS-A0M"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gbB-lE-efl" userLabel="front">
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="jZf-Uo-vZt" userLabel="front">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                            </imageView>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wu-gj-gNF">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
+                                                <connections>
+                                                    <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bn4-Cm-Vou"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="jZf-Uo-vZt" secondAttribute="trailing" id="13V-v5-c6I"/>
+                                            <constraint firstAttribute="bottom" secondItem="3wu-gj-gNF" secondAttribute="bottom" id="6SD-Yv-Id0"/>
+                                            <constraint firstItem="jZf-Uo-vZt" firstAttribute="leading" secondItem="gbB-lE-efl" secondAttribute="leading" id="AHp-U5-Xe7"/>
+                                            <constraint firstItem="jZf-Uo-vZt" firstAttribute="top" secondItem="gbB-lE-efl" secondAttribute="top" id="GgZ-Xm-LG6"/>
+                                            <constraint firstItem="3wu-gj-gNF" firstAttribute="top" secondItem="gbB-lE-efl" secondAttribute="top" id="UYr-ia-YXH"/>
+                                            <constraint firstItem="3wu-gj-gNF" firstAttribute="leading" secondItem="gbB-lE-efl" secondAttribute="leading" id="cYv-GD-3fU"/>
+                                            <constraint firstAttribute="bottom" secondItem="jZf-Uo-vZt" secondAttribute="bottom" id="oVv-4z-flZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="3wu-gj-gNF" secondAttribute="trailing" id="rng-Oi-pM6"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="rYQ-9t-hUT" secondAttribute="bottom" id="7Es-JF-rxA"/>
+                                    <constraint firstItem="gbB-lE-efl" firstAttribute="leading" secondItem="0fU-jR-jL8" secondAttribute="leading" id="AVK-Fq-RY0"/>
+                                    <constraint firstAttribute="bottom" secondItem="gbB-lE-efl" secondAttribute="bottom" id="Cma-kd-520"/>
+                                    <constraint firstItem="gbB-lE-efl" firstAttribute="top" secondItem="0fU-jR-jL8" secondAttribute="top" id="aQk-k9-Mbp"/>
+                                    <constraint firstAttribute="trailing" secondItem="rYQ-9t-hUT" secondAttribute="trailing" id="fFI-j5-qZS"/>
+                                    <constraint firstAttribute="trailing" secondItem="gbB-lE-efl" secondAttribute="trailing" id="jhz-br-ncq"/>
+                                    <constraint firstItem="rYQ-9t-hUT" firstAttribute="leading" secondItem="0fU-jR-jL8" secondAttribute="leading" id="kS7-uu-g7r"/>
+                                    <constraint firstItem="rYQ-9t-hUT" firstAttribute="top" secondItem="0fU-jR-jL8" secondAttribute="top" id="rdW-c1-G1G"/>
+                                </constraints>
+                            </view>
                             <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="acR-9h-8hV" userLabel="card_1">
-                                <rect key="frame" x="409.5" y="536" width="205" height="205"/>
+                                <rect key="frame" x="307" y="435" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CKM-Xh-Gip" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="205"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Zy-YU-aja" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="205"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -569,13 +741,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mAJ-1z-JfV" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="205"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="Znh-ui-Xwd" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="205"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hag-wI-Bvb">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="205"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hag-wI-Bvb">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Kz-xR-5fG"/>
                                                 </connections>
@@ -607,70 +779,14 @@
                                     <constraint firstItem="mAJ-1z-JfV" firstAttribute="leading" secondItem="acR-9h-8hV" secondAttribute="leading" id="ybk-2w-VF2"/>
                                 </constraints>
                             </view>
-                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0fU-jR-jL8" userLabel="card_2">
-                                <rect key="frame" x="197" y="536" width="204.5" height="205"/>
-                                <subviews>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rYQ-9t-hUT" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="205"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat.png" translatesAutoresizingMaskIntoConstraints="NO" id="y0s-4J-Xw9" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="205"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="y0s-4J-Xw9" firstAttribute="leading" secondItem="rYQ-9t-hUT" secondAttribute="leading" id="76X-nQ-7UI"/>
-                                            <constraint firstItem="y0s-4J-Xw9" firstAttribute="top" secondItem="rYQ-9t-hUT" secondAttribute="top" id="YjM-M2-fyM"/>
-                                            <constraint firstAttribute="bottom" secondItem="y0s-4J-Xw9" secondAttribute="bottom" id="nMT-Rb-rq2"/>
-                                            <constraint firstAttribute="trailing" secondItem="y0s-4J-Xw9" secondAttribute="trailing" id="uRm-rS-A0M"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gbB-lE-efl" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="205"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="jZf-Uo-vZt" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="205"/>
-                                            </imageView>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3wu-gj-gNF">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="205"/>
-                                                <connections>
-                                                    <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bn4-Cm-Vou"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="jZf-Uo-vZt" secondAttribute="trailing" id="13V-v5-c6I"/>
-                                            <constraint firstAttribute="bottom" secondItem="3wu-gj-gNF" secondAttribute="bottom" id="6SD-Yv-Id0"/>
-                                            <constraint firstItem="jZf-Uo-vZt" firstAttribute="leading" secondItem="gbB-lE-efl" secondAttribute="leading" id="AHp-U5-Xe7"/>
-                                            <constraint firstItem="jZf-Uo-vZt" firstAttribute="top" secondItem="gbB-lE-efl" secondAttribute="top" id="GgZ-Xm-LG6"/>
-                                            <constraint firstItem="3wu-gj-gNF" firstAttribute="top" secondItem="gbB-lE-efl" secondAttribute="top" id="UYr-ia-YXH"/>
-                                            <constraint firstItem="3wu-gj-gNF" firstAttribute="leading" secondItem="gbB-lE-efl" secondAttribute="leading" id="cYv-GD-3fU"/>
-                                            <constraint firstAttribute="bottom" secondItem="jZf-Uo-vZt" secondAttribute="bottom" id="oVv-4z-flZ"/>
-                                            <constraint firstAttribute="trailing" secondItem="3wu-gj-gNF" secondAttribute="trailing" id="rng-Oi-pM6"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="rYQ-9t-hUT" secondAttribute="bottom" id="7Es-JF-rxA"/>
-                                    <constraint firstItem="gbB-lE-efl" firstAttribute="leading" secondItem="0fU-jR-jL8" secondAttribute="leading" id="AVK-Fq-RY0"/>
-                                    <constraint firstAttribute="bottom" secondItem="gbB-lE-efl" secondAttribute="bottom" id="Cma-kd-520"/>
-                                    <constraint firstItem="gbB-lE-efl" firstAttribute="top" secondItem="0fU-jR-jL8" secondAttribute="top" id="aQk-k9-Mbp"/>
-                                    <constraint firstAttribute="trailing" secondItem="rYQ-9t-hUT" secondAttribute="trailing" id="fFI-j5-qZS"/>
-                                    <constraint firstAttribute="trailing" secondItem="gbB-lE-efl" secondAttribute="trailing" id="jhz-br-ncq"/>
-                                    <constraint firstItem="rYQ-9t-hUT" firstAttribute="leading" secondItem="0fU-jR-jL8" secondAttribute="leading" id="kS7-uu-g7r"/>
-                                    <constraint firstItem="rYQ-9t-hUT" firstAttribute="top" secondItem="0fU-jR-jL8" secondAttribute="top" id="rdW-c1-G1G"/>
-                                </constraints>
-                            </view>
                             <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wik-HG-6wv" userLabel="card_3">
-                                <rect key="frame" x="622.5" y="536" width="204.5" height="205"/>
+                                <rect key="frame" x="469" y="435" width="154" height="154"/>
                                 <subviews>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F9m-vS-M49" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="205"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arara2.png" translatesAutoresizingMaskIntoConstraints="NO" id="TxE-0b-sWg" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="205"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -682,13 +798,13 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u8T-nC-DoM" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="205"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cw7-Tr-jDn" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="205"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                             </imageView>
-                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1h-Po-ldQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="205"/>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1h-Po-ldQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="154" height="154"/>
                                                 <connections>
                                                     <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CHt-Tz-2k4"/>
                                                 </connections>
@@ -719,132 +835,28 @@
                                     <constraint firstAttribute="trailing" secondItem="F9m-vS-M49" secondAttribute="trailing" id="wai-aD-UR7"/>
                                 </constraints>
                             </view>
-                            <view tag="4" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="be0-Ep-Cw0" userLabel="card_4">
-                                <rect key="frame" x="197" y="323.5" width="204.5" height="204.5"/>
-                                <subviews>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="izA-HB-1hn" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arara2.png" translatesAutoresizingMaskIntoConstraints="NO" id="OvA-gh-uRm" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="OvA-gh-uRm" firstAttribute="top" secondItem="izA-HB-1hn" secondAttribute="top" id="CX3-g7-HJ5"/>
-                                            <constraint firstAttribute="trailing" secondItem="OvA-gh-uRm" secondAttribute="trailing" id="Fdb-dR-A9t"/>
-                                            <constraint firstAttribute="bottom" secondItem="OvA-gh-uRm" secondAttribute="bottom" id="KY9-SE-lDi"/>
-                                            <constraint firstItem="OvA-gh-uRm" firstAttribute="leading" secondItem="izA-HB-1hn" secondAttribute="leading" id="YTo-Uo-lvF"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ii-w5-Gm2" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="Vch-EC-iCq" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
-                                            </imageView>
-                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mT-im-FwN">
-                                                <rect key="frame" x="0.0" y="0.0" width="204.5" height="204.5"/>
-                                                <connections>
-                                                    <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gJY-nQ-wUw"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="6mT-im-FwN" firstAttribute="leading" secondItem="4Ii-w5-Gm2" secondAttribute="leading" id="3Er-ia-ale"/>
-                                            <constraint firstAttribute="trailing" secondItem="6mT-im-FwN" secondAttribute="trailing" id="DMG-n8-tqJ"/>
-                                            <constraint firstItem="6mT-im-FwN" firstAttribute="top" secondItem="4Ii-w5-Gm2" secondAttribute="top" id="OFE-3h-Aie"/>
-                                            <constraint firstAttribute="trailing" secondItem="Vch-EC-iCq" secondAttribute="trailing" id="dcy-99-ow3"/>
-                                            <constraint firstItem="Vch-EC-iCq" firstAttribute="top" secondItem="4Ii-w5-Gm2" secondAttribute="top" id="dil-Ov-lnf"/>
-                                            <constraint firstAttribute="bottom" secondItem="Vch-EC-iCq" secondAttribute="bottom" id="hRE-73-dBH"/>
-                                            <constraint firstAttribute="bottom" secondItem="6mT-im-FwN" secondAttribute="bottom" id="iXY-eR-jRy"/>
-                                            <constraint firstItem="Vch-EC-iCq" firstAttribute="leading" secondItem="4Ii-w5-Gm2" secondAttribute="leading" id="xip-wd-4Wt"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="4Ii-w5-Gm2" secondAttribute="bottom" id="7rY-bx-b3c"/>
-                                    <constraint firstAttribute="trailing" secondItem="izA-HB-1hn" secondAttribute="trailing" id="AQq-Tq-g79"/>
-                                    <constraint firstItem="izA-HB-1hn" firstAttribute="leading" secondItem="be0-Ep-Cw0" secondAttribute="leading" id="BGf-JW-xYo"/>
-                                    <constraint firstItem="4Ii-w5-Gm2" firstAttribute="leading" secondItem="be0-Ep-Cw0" secondAttribute="leading" id="Cs1-kJ-Iuz"/>
-                                    <constraint firstItem="izA-HB-1hn" firstAttribute="top" secondItem="be0-Ep-Cw0" secondAttribute="top" id="Epp-Yt-vuH"/>
-                                    <constraint firstAttribute="bottom" secondItem="izA-HB-1hn" secondAttribute="bottom" id="EvD-tP-H1w"/>
-                                    <constraint firstItem="4Ii-w5-Gm2" firstAttribute="top" secondItem="be0-Ep-Cw0" secondAttribute="top" id="KjF-t4-8Fo"/>
-                                    <constraint firstAttribute="trailing" secondItem="4Ii-w5-Gm2" secondAttribute="trailing" id="apE-2h-DTg"/>
-                                </constraints>
-                            </view>
-                            <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9k6-lR-XHG" userLabel="card_5">
-                                <rect key="frame" x="409.5" y="323.5" width="205" height="204.5"/>
-                                <subviews>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9zj-ps-6UN" userLabel="back">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chien2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jZf-mS-gAm" userLabel="animal">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
-                                            </imageView>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="jZf-mS-gAm" secondAttribute="trailing" id="4kA-Tb-50R"/>
-                                            <constraint firstItem="jZf-mS-gAm" firstAttribute="leading" secondItem="9zj-ps-6UN" secondAttribute="leading" id="NXg-RH-CEq"/>
-                                            <constraint firstItem="jZf-mS-gAm" firstAttribute="top" secondItem="9zj-ps-6UN" secondAttribute="top" id="Zeu-sG-ieX"/>
-                                            <constraint firstAttribute="bottom" secondItem="jZf-mS-gAm" secondAttribute="bottom" id="ovZ-Rg-xwn"/>
-                                        </constraints>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TtO-uL-dOZ" userLabel="front">
-                                        <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
-                                        <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="floreste.png" translatesAutoresizingMaskIntoConstraints="NO" id="lIO-T3-lSZ" userLabel="front">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
-                                            </imageView>
-                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTx-uJ-CVE">
-                                                <rect key="frame" x="0.0" y="0.0" width="205" height="204.5"/>
-                                                <connections>
-                                                    <action selector="cardPlay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4k-Tx-OFI"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstItem="lIO-T3-lSZ" firstAttribute="leading" secondItem="TtO-uL-dOZ" secondAttribute="leading" id="7H2-FH-Bhc"/>
-                                            <constraint firstItem="dTx-uJ-CVE" firstAttribute="leading" secondItem="TtO-uL-dOZ" secondAttribute="leading" id="EDk-ZO-bnk"/>
-                                            <constraint firstItem="lIO-T3-lSZ" firstAttribute="top" secondItem="TtO-uL-dOZ" secondAttribute="top" id="JNJ-pP-qCr"/>
-                                            <constraint firstAttribute="trailing" secondItem="dTx-uJ-CVE" secondAttribute="trailing" id="RLP-eO-gRU"/>
-                                            <constraint firstAttribute="bottom" secondItem="dTx-uJ-CVE" secondAttribute="bottom" id="hDa-r8-OAN"/>
-                                            <constraint firstAttribute="trailing" secondItem="lIO-T3-lSZ" secondAttribute="trailing" id="ihK-t5-wqu"/>
-                                            <constraint firstItem="dTx-uJ-CVE" firstAttribute="top" secondItem="TtO-uL-dOZ" secondAttribute="top" id="mGR-il-P0G"/>
-                                            <constraint firstAttribute="bottom" secondItem="lIO-T3-lSZ" secondAttribute="bottom" id="wgc-y3-52w"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="9zj-ps-6UN" secondAttribute="bottom" id="4UD-hw-rT4"/>
-                                    <constraint firstAttribute="trailing" secondItem="9zj-ps-6UN" secondAttribute="trailing" id="6IR-fY-UmA"/>
-                                    <constraint firstItem="9zj-ps-6UN" firstAttribute="top" secondItem="9k6-lR-XHG" secondAttribute="top" id="Dsq-nY-oVt"/>
-                                    <constraint firstItem="9zj-ps-6UN" firstAttribute="leading" secondItem="9k6-lR-XHG" secondAttribute="leading" id="HsD-SE-Ii3"/>
-                                    <constraint firstItem="TtO-uL-dOZ" firstAttribute="leading" secondItem="9k6-lR-XHG" secondAttribute="leading" id="Y2v-Wm-ZeD"/>
-                                    <constraint firstAttribute="trailing" secondItem="TtO-uL-dOZ" secondAttribute="trailing" id="eje-TA-RyD"/>
-                                    <constraint firstItem="TtO-uL-dOZ" firstAttribute="top" secondItem="9k6-lR-XHG" secondAttribute="top" id="fx8-yS-Umd"/>
-                                    <constraint firstAttribute="bottom" secondItem="TtO-uL-dOZ" secondAttribute="bottom" id="ywb-6q-EzM"/>
-                                </constraints>
-                            </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bonjour.png" translatesAutoresizingMaskIntoConstraints="NO" id="W7g-Zk-tbv">
-                                <rect key="frame" x="409.5" y="111" width="205" height="204.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo2.png" translatesAutoresizingMaskIntoConstraints="NO" id="kYQ-sK-HCx">
+                                <rect key="frame" x="300" y="9" width="161" height="85"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gnn-nx-v2X">
+                                <rect key="frame" x="345" y="921" width="78" height="85"/>
+                                <state key="normal" image="reset.png">
+                                    <color key="titleColor" red="0.2614417389" green="0.99718669039999996" blue="0.26815629140000002" alpha="0.84941681339999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="deNoveau:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sqq-oL-6Fj"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.96435799870466321" green="0.96428062325792041" blue="0.17695500172697426" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.26217933054313391" green="1" blue="0.26891282644903813" alpha="0.84941681339999997" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Wik-HG-6wv" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="2OB-Eu-Omf"/>
-                            <constraint firstItem="AJ6-Yf-NHc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3fk-cX-aG0"/>
+                            <constraint firstItem="W7g-Zk-tbv" firstAttribute="top" secondItem="kYQ-sK-HCx" secondAttribute="bottom" constant="17" id="3I0-Xy-f9m"/>
                             <constraint firstItem="zq1-Uy-i1a" firstAttribute="top" secondItem="0fU-jR-jL8" secondAttribute="bottom" constant="8" id="3x0-BC-1YA"/>
                             <constraint firstItem="dbU-Gn-sJQ" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="4Lv-FG-9jn"/>
                             <constraint firstItem="SnL-M7-m5H" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="4Oa-eh-srp"/>
                             <constraint firstItem="9k6-lR-XHG" firstAttribute="top" secondItem="W7g-Zk-tbv" secondAttribute="bottom" constant="8" id="4Qd-Bc-PRY"/>
                             <constraint firstItem="Anl-uH-9rs" firstAttribute="leading" secondItem="dbU-Gn-sJQ" secondAttribute="leading" id="4Wk-6P-d7h"/>
-                            <constraint firstAttribute="trailing" secondItem="AJ6-Yf-NHc" secondAttribute="trailing" id="6bY-hq-7Hn"/>
                             <constraint firstItem="hjU-P1-hyH" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="71G-qR-2D8"/>
                             <constraint firstItem="nk2-Hy-APf" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="7FG-Oi-p3D"/>
                             <constraint firstItem="s70-ak-oEt" firstAttribute="leading" secondItem="Anl-uH-9rs" secondAttribute="trailing" constant="8" id="7gY-ad-vr5"/>
@@ -860,19 +872,22 @@
                             <constraint firstItem="s70-ak-oEt" firstAttribute="top" secondItem="roa-Iu-FU8" secondAttribute="bottom" constant="8" id="GCc-tA-FJT"/>
                             <constraint firstItem="be0-Ep-Cw0" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="GHa-Yz-wR8"/>
                             <constraint firstItem="Wik-HG-6wv" firstAttribute="top" secondItem="9k6-lR-XHG" secondAttribute="bottom" constant="8" id="GdE-OM-31U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kYQ-sK-HCx" secondAttribute="trailing" constant="287" id="HSt-KE-DGm"/>
                             <constraint firstItem="Anl-uH-9rs" firstAttribute="leading" secondItem="SnL-M7-m5H" secondAttribute="trailing" constant="8" id="IER-9L-jCE"/>
-                            <constraint firstItem="AJ6-Yf-NHc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="IRc-ZL-hEp"/>
                             <constraint firstItem="s70-ak-oEt" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="KS3-cJ-wDa"/>
                             <constraint firstItem="SnL-M7-m5H" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="LoD-ec-9RN"/>
+                            <constraint firstItem="kYQ-sK-HCx" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="9" id="LvD-pl-tpg"/>
                             <constraint firstItem="W7g-Zk-tbv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="91" id="MCn-z9-OlG"/>
                             <constraint firstItem="roa-Iu-FU8" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="McC-xN-xY0"/>
                             <constraint firstItem="W7g-Zk-tbv" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="Omt-Pq-sY5"/>
                             <constraint firstItem="zq1-Uy-i1a" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="PIj-7P-gSs"/>
                             <constraint firstItem="Anl-uH-9rs" firstAttribute="leading" secondItem="SnL-M7-m5H" secondAttribute="trailing" constant="8" id="Pap-7l-5c7"/>
+                            <constraint firstItem="gnn-nx-v2X" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="325" id="Pca-Y3-6ce"/>
                             <constraint firstItem="s70-ak-oEt" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="Q2o-lQ-1vJ"/>
                             <constraint firstItem="roa-Iu-FU8" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="R1Z-eo-TUD"/>
                             <constraint firstItem="s70-ak-oEt" firstAttribute="leading" secondItem="roa-Iu-FU8" secondAttribute="leading" id="UNj-c7-ON3"/>
                             <constraint firstItem="Wik-HG-6wv" firstAttribute="leading" secondItem="acR-9h-8hV" secondAttribute="trailing" constant="8" id="V5B-m5-PtJ"/>
+                            <constraint firstItem="gnn-nx-v2X" firstAttribute="top" secondItem="Anl-uH-9rs" secondAttribute="bottom" constant="8" id="WIg-hW-Pjl"/>
                             <constraint firstItem="0fU-jR-jL8" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="XKT-ZF-B3G"/>
                             <constraint firstItem="dbU-Gn-sJQ" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="YDL-he-Vc4"/>
                             <constraint firstItem="roa-Iu-FU8" firstAttribute="leading" secondItem="dbU-Gn-sJQ" secondAttribute="trailing" constant="8" id="ZC4-2E-XC2"/>
@@ -881,9 +896,10 @@
                             <constraint firstItem="be0-Ep-Cw0" firstAttribute="leading" secondItem="0fU-jR-jL8" secondAttribute="leading" id="abd-ma-Y6h"/>
                             <constraint firstItem="9k6-lR-XHG" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="bel-qe-Zos"/>
                             <constraint firstItem="dbU-Gn-sJQ" firstAttribute="top" secondItem="Wik-HG-6wv" secondAttribute="bottom" constant="8" id="c7O-bS-BXm"/>
+                            <constraint firstItem="kYQ-sK-HCx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="280" id="cFL-5u-EQC"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kgd-XO-UHy" secondAttribute="bottom" id="cWh-GS-6R7"/>
                             <constraint firstItem="W7g-Zk-tbv" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="cZK-cF-7Ps"/>
                             <constraint firstItem="9k6-lR-XHG" firstAttribute="leading" secondItem="be0-Ep-Cw0" secondAttribute="trailing" constant="8" id="cob-eH-YaB"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AJ6-Yf-NHc" secondAttribute="bottom" id="cwC-ca-Nhk"/>
                             <constraint firstItem="9k6-lR-XHG" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="eG7-Rl-thk"/>
                             <constraint firstItem="nk2-Hy-APf" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="eT6-tj-upn"/>
                             <constraint firstItem="0fU-jR-jL8" firstAttribute="top" secondItem="be0-Ep-Cw0" secondAttribute="bottom" constant="8" id="gWI-pS-ry2"/>
@@ -896,9 +912,13 @@
                             <constraint firstItem="acR-9h-8hV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.2" id="kCj-Lc-jp3"/>
                             <constraint firstItem="roa-Iu-FU8" firstAttribute="leading" secondItem="Wik-HG-6wv" secondAttribute="leading" id="kEn-z2-B7u"/>
                             <constraint firstItem="be0-Ep-Cw0" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="mMU-eb-DgT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gnn-nx-v2X" secondAttribute="trailing" constant="325" id="nje-WT-uXB"/>
                             <constraint firstItem="9k6-lR-XHG" firstAttribute="top" secondItem="be0-Ep-Cw0" secondAttribute="top" id="pbz-NL-4c4"/>
+                            <constraint firstItem="Kgd-XO-UHy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="q0t-hK-3lJ"/>
+                            <constraint firstItem="Kgd-XO-UHy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qQ5-ZW-jrL"/>
                             <constraint firstItem="nk2-Hy-APf" firstAttribute="leading" secondItem="W7g-Zk-tbv" secondAttribute="trailing" constant="8" id="qyj-Ot-7pg"/>
                             <constraint firstItem="hYa-k2-YzL" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="sLw-Sa-jG5"/>
+                            <constraint firstAttribute="trailing" secondItem="Kgd-XO-UHy" secondAttribute="trailing" id="sXf-cr-xaD"/>
                             <constraint firstItem="hjU-P1-hyH" firstAttribute="leading" secondItem="be0-Ep-Cw0" secondAttribute="leading" id="t0Z-f2-Nse"/>
                             <constraint firstItem="hYa-k2-YzL" firstAttribute="leading" secondItem="9k6-lR-XHG" secondAttribute="trailing" constant="8" id="tAy-yv-OxF"/>
                             <constraint firstItem="acR-9h-8hV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tHg-mr-xls"/>
@@ -908,6 +928,7 @@
                             <constraint firstItem="Wik-HG-6wv" firstAttribute="top" secondItem="acR-9h-8hV" secondAttribute="top" id="x5a-e0-4UZ"/>
                             <constraint firstItem="acR-9h-8hV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="y7N-rY-Zqs"/>
                             <constraint firstItem="zq1-Uy-i1a" firstAttribute="height" secondItem="acR-9h-8hV" secondAttribute="height" id="yuA-Da-4s3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gnn-nx-v2X" secondAttribute="bottom" constant="18" id="zSR-Ww-GHm"/>
                             <constraint firstItem="hjU-P1-hyH" firstAttribute="width" secondItem="acR-9h-8hV" secondAttribute="width" id="zU0-6O-W6b"/>
                         </constraints>
                     </view>
@@ -926,6 +947,20 @@
                         <outlet property="back_7" destination="h30-ha-BPX" id="e0O-xc-j04"/>
                         <outlet property="back_8" destination="m0k-Sz-bY3" id="g2A-1e-a6L"/>
                         <outlet property="back_9" destination="efm-kP-uLU" id="fpr-O0-6rK"/>
+                        <outlet property="card_1" destination="acR-9h-8hV" id="dMB-W0-Wnf"/>
+                        <outlet property="card_10" destination="zq1-Uy-i1a" id="iJK-5c-j5g"/>
+                        <outlet property="card_11" destination="dbU-Gn-sJQ" id="Ra3-7z-tqk"/>
+                        <outlet property="card_12" destination="s70-ak-oEt" id="PBq-9o-bgC"/>
+                        <outlet property="card_13" destination="nk2-Hy-APf" id="jUP-bC-ckd"/>
+                        <outlet property="card_14" destination="hjU-P1-hyH" id="cz6-Pn-YKk"/>
+                        <outlet property="card_2" destination="0fU-jR-jL8" id="1VJ-lr-vM2"/>
+                        <outlet property="card_3" destination="Wik-HG-6wv" id="pEm-1P-yFG"/>
+                        <outlet property="card_4" destination="be0-Ep-Cw0" id="loA-jM-CpQ"/>
+                        <outlet property="card_5" destination="9k6-lR-XHG" id="vTa-A2-mQn"/>
+                        <outlet property="card_6" destination="roa-Iu-FU8" id="xAW-bA-0fY"/>
+                        <outlet property="card_7" destination="hYa-k2-YzL" id="DcP-YW-Qf6"/>
+                        <outlet property="card_8" destination="SnL-M7-m5H" id="RX5-Gz-x1f"/>
+                        <outlet property="card_9" destination="Anl-uH-9rs" id="pnY-AR-Rjm"/>
                         <outlet property="front_1" destination="mAJ-1z-JfV" id="TuF-ax-nOx"/>
                         <outlet property="front_10" destination="fQZ-cw-0I8" id="F0A-kl-5Db"/>
                         <outlet property="front_11" destination="iHe-hQ-t90" id="KRh-Ot-fJa"/>
@@ -940,11 +975,25 @@
                         <outlet property="front_7" destination="WDJ-SX-fNf" id="Tdl-Zp-HHA"/>
                         <outlet property="front_8" destination="tbT-Vr-hKY" id="SAC-a8-RUk"/>
                         <outlet property="front_9" destination="MYy-4a-ONN" id="dvI-m6-5v1"/>
+                        <outlet property="imgView1" destination="3Zy-YU-aja" id="tNQ-gX-IER"/>
+                        <outlet property="imgView10" destination="gw1-tD-3nl" id="7wt-FS-sJ2"/>
+                        <outlet property="imgView11" destination="YcC-l5-zo7" id="N9e-iL-Jxi"/>
+                        <outlet property="imgView12" destination="NB3-Qk-smf" id="fdK-4w-x8C"/>
+                        <outlet property="imgView13" destination="OV8-Sb-uEY" id="m4n-Ik-EEB"/>
+                        <outlet property="imgView14" destination="uJz-1h-R9e" id="B3e-ba-kgC"/>
+                        <outlet property="imgView2" destination="y0s-4J-Xw9" id="25y-uz-Ui5"/>
+                        <outlet property="imgView3" destination="TxE-0b-sWg" id="14B-kx-A6V"/>
+                        <outlet property="imgView4" destination="OvA-gh-uRm" id="SEi-S2-MMQ"/>
+                        <outlet property="imgView5" destination="jZf-mS-gAm" id="aZ6-Ib-4t3"/>
+                        <outlet property="imgView6" destination="j9V-Id-A0b" id="80N-BS-tus"/>
+                        <outlet property="imgView7" destination="RZK-xj-uoT" id="wdb-9x-bUW"/>
+                        <outlet property="imgView8" destination="sQ7-yI-jF2" id="O5h-Ke-dBc"/>
+                        <outlet property="imgView9" destination="7KC-AP-Yy4" id="SLK-a8-g2a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-323.4375" y="-1483.59375"/>
+            <point key="canvasLocation" x="-364.0625" y="-1611.328125"/>
         </scene>
     </scenes>
     <resources>
@@ -953,9 +1002,11 @@
         <image name="chat.png" width="300" height="300"/>
         <image name="chien2.png" width="300" height="300"/>
         <image name="floreste.png" width="300" height="300"/>
+        <image name="interface-01.png" width="768" height="1024"/>
         <image name="lapin.2png.png" width="300" height="300"/>
+        <image name="logo2.png" width="668" height="372"/>
+        <image name="reset.png" width="121" height="132"/>
         <image name="singe2.png" width="300" height="300"/>
-        <image name="soleil.png" width="768" height="1024"/>
         <image name="tiger2.png" width="300" height="300"/>
         <image name="tortue2.png" width="300" height="300"/>
     </resources>
